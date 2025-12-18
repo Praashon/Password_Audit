@@ -10,7 +10,6 @@ try:
 
     load_dotenv()
 except ImportError:
-    # Optional dependency: if python-dotenv isn't installed, fall back to OS env vars.
     pass
 
 # Configuration
